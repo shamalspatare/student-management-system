@@ -550,6 +550,7 @@ studenttable.column('d.o.b', width=150)
 studenttable.column('date', width=150)
 studenttable.column('time', width=150)
 studenttable.pack(fill=BOTH, expand=1)
+print('')
 
 ss = "Welcome to student managment sysytem"
 count = 0
