@@ -82,7 +82,7 @@ def addstudent():
     gentry.place(x=700, y=370)
     dentry = Entry(addroot, font=('roman', 15, 'bold'), bd=5, textvariable=dval, width=25)
     dentry.place(x=700, y=430)
-    submibutton = Button(addroot, text='submit', font=('roman', 25, 'bold'), width=28, relief=RIDGE,
+    submibutton = Button(addroot, text='submit', font=('roman', 26, 'bold'), width=28, relief=RIDGE,
                          borderwidth=4, bd=6, bg='pink', activebackground='purple', activeforeground='yellow',
                          command=submitadd)
     submibutton.place(x=480, y=490)
